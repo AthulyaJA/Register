@@ -1,11 +1,19 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+
+import { StyleSheet, Text, View,Button,FlatList,Image,TouchableOpacity, ScrollView} from "react-native";
+import React,{useState} from 'react'
+
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import {Router,Stack,Scene} from 'react-native-router-flux'
+import Register  from "./components/RegForm";
+import Login from "./components/Login";
+//import Dashboard from "./components/Dashboard";
+////import Moving from "./components/Moving";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text> s</Text>
       <StatusBar style="auto" />
     </View>
   );
